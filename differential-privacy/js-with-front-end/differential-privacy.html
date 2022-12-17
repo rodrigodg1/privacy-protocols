@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Differential Privacy Example</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+
+    <h1>Differential Privacy Example Using Laplace mechanism</h1>
+    <h3>Enter a number to add to the list:</h3>
+    <form id="form">
+        <p>Data</p>
+        <input type="number" id="number" placeholder="Data: 1,2,3,4, ..">
+        <p>Sensitivity</p>
+        <input type="number" step="1" id="sen" placeholder="Sensitivity: 1">
+        <p>Epsilon</p>
+        <input type="number" step="0.001" id="ep" placeholder="Epsilon: 0.001" min="0.001">
+        <button type="submit">Add</button>
+    </form>
+    <h3>List of privacy result:</h3>
+    <ul id="list" class="my-list"></ul>
+
+    <script src="static/logic.js"></script>
+</body>
+
+</html>

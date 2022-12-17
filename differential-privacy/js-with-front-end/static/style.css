@@ -1,0 +1,57 @@
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  h1,h3{
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+
+.my-list {
+list-style-type: none; /* remove the default bullet points */
+padding: 25px 20px;
+margin: 15px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.my-list li {
+background-color: lightgray; /* add a background color to the list items */
+margin: 10px 0; /* add some margin between the list items */
+padding: 10px; /* add some padding to the list items */
+border-radius: 5px; /* add rounded corners to the list items */
+}
+
+.my-list li:hover {
+background-color: gray; /* change the background color on hover */
+}
